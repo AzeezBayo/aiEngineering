@@ -1,1 +1,1 @@
-//This directory documents on AI engineering for node.js
+//This directory documents on AI engineering using node.js
