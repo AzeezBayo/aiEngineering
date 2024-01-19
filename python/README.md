@@ -1,1 +1,1 @@
-#This directory documents on AI engineering for python
+#This directory documents on AI engineering using python
