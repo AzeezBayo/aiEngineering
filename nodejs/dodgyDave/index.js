@@ -79,6 +79,10 @@ async function fetchReport(data) {
         const response = await openai.chat.completions.create({
             model: 'gpt-4',
             messages: messages
+	    max_tokens: 16 // default: inf
+	    temperature: 1.1
+            presence_penalty: 0, 
+            frequency_penalty: 0 //controls repititive output
         })
         renderReport(response.choices[0].message.content)
 
